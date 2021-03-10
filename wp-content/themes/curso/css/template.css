@@ -1,27 +1,70 @@
 /* Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
-body{ font: 16px/1.6 'Roboto', sans-serif;  }
-body p{ font: 16px/1.6 'Roboto', sans-serif; }
+body{ font: 15px/1.6 'Roboto', sans-serif;  }
+body p{ font: 15px/1.6 'Roboto', sans-serif; }
 h1{ font-size: 28px; margin: 15px 0 15px; }
 h2{ font-size: 24px; margin-top: 0; }
 h3{ font-size: 20px; margin-top: 0; }
 h4{ font-size: 18px; margin-top: 0; }
 
-
-.social-media-icons{
-    background-color: #ffffff;
-    height: 30px;
+/* Slide */
+.slide{ 
+    padding: 30px ; 
+    background-color: teal;
 }
+
+/* Campo de pesquisa */
+.search-input{
+    background-color: #F0F0F0;
+    border: 2px solid #DCDCDC;
+    height: 50px;
+    width: 310px;
+    padding: 10px;
+    font: 15px/1.6 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+.search{
+    padding-top: 75px;
+    background-color: #ffffff;
+}
+
+.bag{
+    padding-top: 80px;
+    background-color: #ffffff
+}
+
+/* Social Media (Header)*/
+.social-media{ background-color: #ffffff; height: 23px;}
+.fa-instagram{ margin-right: 10px; margin-left: 20px;}
 
 .orders, .account{
     background-color: #ffffff;
-    height: 30px;
-    
+    height: 15px;  
 }
 
 .menu ul li, .footer-menu ul li{
     display: inline;
 }
 
-.top-bar{ background: #ffffff; color: black; padding: 15px 0; }
+hr.linha-topo{
+    border: 1px solid #ababab;
+}
+
+
+/* Barra do topo */
+.top-bar{ 
+    background: #ffffff; 
+    color: black; 
+    padding: 15px 0 0 0;
+}
+
+/* Menu principal */
+.menu-area{ background-color: #ffffff; padding: 15px 0;}
+.menu ul{ list-style: none; padding: 0; margin: 0; font-size: 20px; }
+.menu ul li{ display: inline;  margin: 0 70px 0 0;}
+.menu ul li:last-child{ margin: 0; }
+.menu ul li a{color: #4c1b1b; text-decoration: none;}
+.menu ul  li.current-menu-item a{ color:#ababab;}
+

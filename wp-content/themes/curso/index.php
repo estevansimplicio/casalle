@@ -3,7 +3,7 @@
 	<div class="content-area">
 		<main>
 			<section class="slide">Slide</section>
-			<section class="services">Serviços</section>
+			<section class="services">Categorias de produtos</section>
 			<section class="middle-area">
 				<div class="container">
 					<div class="row">
