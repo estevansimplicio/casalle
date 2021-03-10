@@ -2,25 +2,25 @@
 	<div class="content-area">
 		<main>
 			<section class="slide">Slide</section>
-			<section class="services">Serviços</section>
+			<section class="services">Categorias de produtos</section>
 			<section class="middle-area">
 				<div class="container">
 					<div class="row">
-					<aside class="sidebar col-md-4">Barra lateral</aside>
-					<div class="news col-md-8">
-					<?php
-						if(have_posts()):
-							while(have_posts()): the_post();
-					?>
-						<p>Conteúdo da homepage</p>
-					<?php
-						endwhile;
-					else:
-					?>
-						<p>There's nothing yet to be displayed...</p>
+						<div class="news col-md-8">
+							<?php
+								if(have_posts()):
+									while(have_posts()): the_post();
+							?>
+								<p>Conteúdo da homepage</p>
+							<?php
+								endwhile;
+							else:
+							?>
+								<p>There's nothing yet to be displayed...</p>
 
-					<?php endif; ?>
-					</div>
+							<?php endif; ?>
+							
+						</div>
 					</div>
 				</div>
 			</section>
